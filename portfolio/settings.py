@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'j@(o(*6nu(8mpc)y^jgc21g+%yl-x_dd3gx^6ru%+jw)*--bfa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['thawing-dusk-15890.herokuapp.com']
 
 
 # Application definition
